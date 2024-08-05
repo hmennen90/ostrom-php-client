@@ -1,0 +1,2 @@
+providers:
+  - Hmennen90\OstromPhpClient\OstromPhpClientServiceProvider

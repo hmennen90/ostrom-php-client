@@ -1,0 +1,26 @@
+{
+    "name": "hmennen90/ostrom-php-client",
+    "version": "1.0.0",
+    "description": "This PHP Client for Ostrom can be used to fetch the own Data for power consumption",
+    "autoload": {
+        "psr-4": {
+            "Hmennen90\\OstromPhpClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hmennen90\\OstromPhpClient\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.2",
+        "rector/rector": "^1.2",
+        "larastan/larastan": "^2.9"
+    },
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "*",
+        "illuminate/http": "*",
+        "spatie/laravel-package-tools": "^1.16"
+    }
+}
